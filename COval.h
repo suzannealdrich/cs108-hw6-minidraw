@@ -1,0 +1,1 @@
+// COval.h#pragma once#include "CShape.h"class COval : public CShape  {public:		enum { class_ID = 'OVsa' };	COval(LView* superCanvas, LWindow* superWindow);		virtual void DrawMyShape();		virtual int GetClassInt() const;};

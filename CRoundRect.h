@@ -1,0 +1,1 @@
+// CRoundRect.h#pragma once#include "CShape.h"class CRoundRect : public CShape  {public:		enum { class_ID = 'RRsa' };		CRoundRect(LView* superCanvas, LWindow* superWindow);		virtual void DrawMyShape();		virtual int GetClassInt() const;};

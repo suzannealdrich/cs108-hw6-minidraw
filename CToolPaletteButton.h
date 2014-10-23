@@ -1,0 +1,1 @@
+// CToolPaletteButton.h#pragma once#include <LCicnButton.h>class CToolPaletteButton : public LCicnButton  {public:		enum { class_ID = 'PBsa' };		CToolPaletteButton(LStream *inStream);		virtual void DrawSelf();	virtual void HotSpotResult(SInt16 inHotSpot);		virtual void SetValue(SInt32 inValue);	private:	CIconHandle mPushedH;		CIconHandle mNormalH;	};
